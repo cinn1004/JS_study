@@ -4,19 +4,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div></div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src="logo512.png" className="App-logo" alt="logo" />
+        <p className="LogoName">
+          3CENT
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <div>
+          <a className="PageBotton" href="">
+            <img src="LiveIcon.png" className="PageIcon"/>
+          </a>
+          <a className="PageBotton" href="">
+            <img src="LiveIcon.png" className="PageIcon"/>
+          </a>
+
+          <a className="PageBotton" href="">
+            <img src = "LiveIcon.png" className="PageIcon"/>
+          </a>
+        </div>
       </header>
     </div>
   );
